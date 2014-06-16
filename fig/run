@@ -1,1 +1,1 @@
-docker run -i -t -v /var/run/docker.sock:/run/docker.sock cchaudier/docker_fig bash
+docker run -i -t -v /var/run/docker.sock:/run/docker.sock cchaudier/$(basename $(pwd)) bash
