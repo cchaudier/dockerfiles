@@ -4,6 +4,7 @@ MAINTAINER Christophe Chaudier "chaudier.christophe@gmail.com"
 RUN apt-get update -y
 RUN apt-get upgrade -y
 
+RUN apt-get install -y curl
 RUN apt-get install -y docker.io
 RUN ln -sf /usr/bin/docker.io /usr/local/bin/docker
 
